@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  onedrive:
+    container_name: onedrive_client
+    image: driveone/onedrive:debian
+    volumes:
+      - 
